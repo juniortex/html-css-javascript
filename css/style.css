@@ -1,9 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+    /*border: .1px solid #30bd60;*/
 }
 
 body{
     background: rgba(11,11,11,1);
-    color: rgba(225,225,225,1);
+    color: rgba(255, 255, 255,1);
+}
+
+.logo, li a{
+    color: rgba(255,255,255,1);
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+}
+
+header{
+    background: rgba(20,20,20,1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
