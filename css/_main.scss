@@ -1,4 +1,4 @@
 main{
     grid-area: main;
-    background: $color-pri;
+    background: lighten($color-dark, 5);
 }

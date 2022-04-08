@@ -1,4 +1,10 @@
 $color-pri: rgba(82,57,225,1);
-$color-sec: rgba(04, 211, 91, 1);
-$color-dark20: rgba(20,20,20,1);
+$color-pri-lighten: lighten($color-pri, 10);
+$color-pri-darken: darken($color-pri, 10);
+
+$color-sec: rgba(04, 211, 121, 1);
+$color-sec-lighten: lighten($color-sec, 10);
+$color-sec-darken: darken($color-sec, 10);
+
+$color-dark: rgba(0,0,0,1);
 $color-text-claro: rgba(255,255,255,1);

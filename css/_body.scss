@@ -3,7 +3,7 @@ body{
     color: rgba(255, 255, 255,1);
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr auto;
     grid-template-rows: 70px auto 70px;
     grid-template-areas:
     'header header'

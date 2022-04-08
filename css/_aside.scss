@@ -1,4 +1,6 @@
 aside{
     grid-area: aside;
-    background: $color-sec;
+    background: lighten($color-dark, 7.5);
+    width: 40vw;
+    max-width: 240px;
 }

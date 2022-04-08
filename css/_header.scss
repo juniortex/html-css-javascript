@@ -1,6 +1,6 @@
 header{
     grid-area: header;
-    background: $color-dark20;
+    background: lighten($color-dark, 10);
     display: flex;
     justify-content: space-between;
     align-items: center;
