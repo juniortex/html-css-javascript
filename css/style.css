@@ -66,13 +66,18 @@ header button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  color: white;
 }
 
 header button .barra {
   height: 4px;
   min-width: 100%;
-  background: white;
+  background: currentColor;
   border-radius: 10px;
+}
+
+header button.ativo {
+  color: red;
 }
 
 @media (max-width: 540px) {

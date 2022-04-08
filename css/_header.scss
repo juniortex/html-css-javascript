@@ -31,12 +31,17 @@ header{
         border: none;
         flex-direction: column;
         justify-content: space-between;
+        color: $color-clear;
 
         .barra{
             height: 4px;
             min-width: 100%;
-            background: $color-clear;
+            background: currentColor;
             border-radius: 10px;
+        }
+
+        &.ativo{
+            color: red;
         }
     }
 }
