@@ -6,12 +6,26 @@ header{
     align-items: center;
     padding: 20px;
 
-    .logo, li a{
+    .logo{
         color: $color-text-claro;
     }
-    
-    ul{
-        display: flex;
-        gap: 1rem;
+
+    nav{
+        ul{
+            display: flex;
+            gap: 1rem;
+
+            li{
+                a{
+                    color: $color-text-claro;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px){
+    nav{
+        display: none;
     }
 }
