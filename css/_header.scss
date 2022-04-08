@@ -1,0 +1,17 @@
+header{
+    grid-area: header;
+    background: rgba(20,20,20,1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    .logo, li a{
+        color: rgba(255,255,255,1);
+    }
+    
+    ul{
+        display: flex;
+        gap: 1rem;
+    }
+}
