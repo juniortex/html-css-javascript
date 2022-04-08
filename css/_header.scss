@@ -7,7 +7,7 @@ header{
     padding: 20px;
 
     .logo{
-        color: $color-text-claro;
+        color: $color-clear;
     }
 
     nav{
@@ -17,15 +17,36 @@ header{
 
             li{
                 a{
-                    color: $color-text-claro;
+                    color: $color-clear;
                 }
             }
         }
     }
+
+    button{
+        display: none;
+        width: 30px;
+        height: 20px;
+        background: none;
+        border: none;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .barra{
+            height: 4px;
+            min-width: 100%;
+            background: $color-clear;
+            border-radius: 10px;
+        }
+    }
 }
 
-@media (max-width: 600px){
+@media (max-width: 540px){
     nav{
         display: none;
+    }
+
+    .hambg{
+        display: flex;
     }
 }
